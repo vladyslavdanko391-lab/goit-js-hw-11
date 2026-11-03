@@ -9,6 +9,11 @@ body {
   font-family: system-ui, sans-serif;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   font-weight: 600;
   font-size: 12px;

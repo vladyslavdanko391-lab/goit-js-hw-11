@@ -36,6 +36,7 @@ function itemTemplate({webformatURL, largeImageURL , tags, likes , views, commen
     `;
 }
 
+const loader = document.querySelector('.loader');
 
 function itemsTemplate(items) {
   return items.map(itemTemplate).join('');
